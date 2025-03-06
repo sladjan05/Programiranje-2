@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1741222192 source:c:\users\administrator\desktop\l01\izracunavanje.c
+	"izracunavanje.h"
+
+1741222084 c:\users\administrator\desktop\l01\izracunavanje.h
+
+1741222259 source:c:\users\administrator\desktop\l01\main.c
+	"ucitavanje.h"
+	"izracunavanje.h"
+
+1741222138 c:\users\administrator\desktop\l01\ucitavanje.h
+	<stdio.h>
+	<stdlib.h>
+
+1741222231 source:c:\users\administrator\desktop\l01\ucitavanje.c
+	"ucitavanje.h"
+
