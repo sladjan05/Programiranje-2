@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1742419410 source:c:\users\administrator\desktop\programiranje 2\l03\z1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<limits.h>
+
