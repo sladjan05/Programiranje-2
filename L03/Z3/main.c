@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char *dodaj(char *s1, char *s2) {
+char *concat(char *s1, char *s2) {
     char *res = calloc(strlen(s1) + strlen(s2) + 1, sizeof(char));
 
     strcat(res, s1);
@@ -11,7 +11,7 @@ char *dodaj(char *s1, char *s2) {
     return res;
 }
 
-int saberi(int a, int b) {
+int add(int a, int b) {
     return a + b;
 }
 
@@ -46,6 +46,6 @@ void spoji_saberi(int argc, char *argv[], char* (*dodaj)(char*, char*), int (*sa
 }
 
 int main(int argc, char *argv[]) {
-    spoji_saberi(argc, argv, dodaj, saberi);
+    spoji_saberi(argc, argv, concat, add);
     return 0;
 }
