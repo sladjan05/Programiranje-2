@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1743552093 source:c:\users\administrator\desktop\programiranje 2\l04\z1\util.c
+	"util.h"
+
+1743552985 c:\users\administrator\desktop\programiranje 2\l04\z1\util.h
+	<stdbool.h>
+
+1743553517 source:c:\users\administrator\desktop\programiranje 2\l04\z1\file.c
+	"file.h"
+	"util.h"
+
+1743553515 c:\users\administrator\desktop\programiranje 2\l04\z1\file.h
+	<stdio.h>
+	<stdbool.h>
+
+1743558277 source:c:\users\administrator\desktop\programiranje 2\l04\z1\main.c
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+

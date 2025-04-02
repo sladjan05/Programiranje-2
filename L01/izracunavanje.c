@@ -9,7 +9,7 @@ long long faktorijel(int n)
     return temp;
 }
 
-long long suma(long long* niz, int n)
+long long suma(long long *niz, int n)
 {
     long long s = niz[0];
     for (int i = 1; i < n; ++i)
